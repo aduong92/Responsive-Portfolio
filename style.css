@@ -204,8 +204,8 @@ input[type=submit]:hover {
             left: 0;
         }
         h1{
-            float:left: 
-            left-margin: 0px;
+
+            margin-left: 0px;
         }
         ul {
           clear: left;
@@ -219,7 +219,7 @@ input[type=submit]:hover {
         .mcontent{
             width: 600px;
             height: 400px;
-            left: 0px;
+            left: 150px;
             float: left;
             clear: left;
         }
@@ -228,12 +228,68 @@ input[type=submit]:hover {
         }
     }
 @media screen and (max-width: 768px){
+    body{
+        width: 100%;
+    }
         .header {
-            width: 100%
+            width: 100%;
+            margin-left: 0px;
         }
+        h1{
+
+            margin-left: 0px;
+        }
+        ul {
+          clear: left;
+          float:left;
+          
+            }
+        li{
+            clear: left;
+          float:left;
+        }
+        .mcontent{
+            width: 600px;
+            height: 400px;
+            left: 60px;
+            float: left;
+            clear: left;
+        }
+        .aboutme{
+           Padding-top: 150px;
+        }
+    
     }
 @media screen and (max-width: 640px){
+    body{
+        width: 80%;
+    }
         .header {
-            width: 100%
+            width: 100%;
+            margin-left: 0px;
+            left: 0;
+        }
+        h1{
+
+            margin-left: 0px;
+        }
+        ul {
+          clear: left;
+          float:left;
+          
+            }
+        li{
+            clear: left;
+          float:left;
+        }
+        .mcontent{
+            width: 600px;
+            height: 400px;
+            left: 30px;
+            float: left;
+            clear: left;
+        }
+        .aboutme{
+           Padding-top: 150px;
         }
     }
