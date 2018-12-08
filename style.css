@@ -226,6 +226,13 @@ input[type=submit]:hover {
         .aboutme{
            Padding-top: 150px;
         }
+        input[type=text], select, textarea {
+            width: 80%;
+        }
+        .label{
+            float: left;
+            clear: both;
+        }
     }
 @media screen and (max-width: 768px){
     body{
@@ -258,7 +265,13 @@ input[type=submit]:hover {
         .aboutme{
            Padding-top: 150px;
         }
-    
+        input[type=text], select, textarea {
+            width: 70%;
+        }
+        .label{
+            float: left;
+            clear: both;
+        }
     }
 @media screen and (max-width: 640px){
     body{
@@ -289,7 +302,14 @@ input[type=submit]:hover {
             float: left;
             clear: left;
         }
+        input[type=text], select, textarea {
+            width: 60%;
+        }
         .aboutme{
            Padding-top: 150px;
+        }
+        .label{
+            float: left;
+            clear: both;
         }
     }
