@@ -1,0 +1,239 @@
+body {
+   width: 100%;
+  height: 100%;
+  margin: 0;
+  top: 0;  
+  bottom: 0;  
+  background: url("organic-tiles.png");
+  background-size: cover;
+}
+
+.header{
+    position: fixed;
+    height: 130px;
+    width:100%;
+    color: #fff;
+    border-bottom: 3px solid #dddddd;
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+    top: -20px;
+    justify-content: space-between;
+    
+    
+}
+ul {
+position: absolute;   
+top: 60px;
+overflow: hidden;
+margin: 0 auto;
+left: 880px;
+clear: right;
+}
+
+
+.h1{
+    float: left;
+    font-family: 'Georgia';
+    font-weight: bold;
+    color: #ffff;
+    background: #4aaaa5;
+    position: absolute;
+    margin-left: 280px;
+    font-size: 36px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-top: 30px;
+    top: -10;
+    bottom: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+li {
+    float: right;
+
+    
+
+}
+li a{
+    margin: auto;
+    display: inline-block;
+    color: #cccccc;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-size: 24px;
+    top: 40px;
+    padding: 5px;
+    overflow: hidden;
+    cursor: pointer;
+   
+}
+li a:hover{
+    background-color: #4aaaa5;
+    margin: 0;
+    float:left;
+}
+
+li a::after{
+    content: "|";
+    padding-left: 10px;
+   margin: 5 15px;
+    color:black;
+    clear:both;
+    margin-left: 12px;
+}
+
+
+
+.mcontent{
+    height: 350px;
+    position: absolute;
+    width: 960px;
+  top: 200px;
+  left: 280px;
+  border: 1px solid #dddddd;
+  background: white;
+}
+.h2{
+    color: #4aaaa5;
+    font-size: 36px;
+    width:90%;
+    position: absolute;
+    font-family: Times, Times New Roman, serif;
+    font-weight: bold;
+    padding-left: 0px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    border-bottom: 3px solid #dddddd;
+   
+}
+img{
+    float: left;
+    padding-right: 15px;
+    height: 100px;
+    width: 199px;
+
+}
+
+.aboutme{
+top:60px;
+margin: 0 auto;
+padding-top: 120px;
+padding-left:10px;
+padding-right:15px;
+overflow: hidden;
+font-family: Arial, Helvetica, sans-serif;
+color: #777777;
+}
+.aboutme:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.footer{
+   margin: 0 auto;
+   position: fixed;
+   bottom: 0;
+   height: 50px;
+   width: 100%;
+   background: #666666;
+   border-top: 5px solid #4aaaa5;
+
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #4aaaa5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+   
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    float:left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+.label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    display: block;
+}
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 900px){
+    body{
+        width: 80%;
+    }
+        .header {
+            width: 100%;
+            margin-left: 0px;
+            left: 0;
+        }
+        h1{
+            float:left: 
+            left-margin: 0px;
+        }
+        ul {
+          clear: left;
+          float:left;
+          
+            }
+        li{
+            clear: left;
+          float:left;
+        }
+        .mcontent{
+            width: 600px;
+            height: 400px;
+            left: 0px;
+            float: left;
+            clear: left;
+        }
+        .aboutme{
+           Padding-top: 150px;
+        }
+    }
+@media screen and (max-width: 768px){
+        .header {
+            width: 100%
+        }
+    }
+@media screen and (max-width: 640px){
+        .header {
+            width: 100%
+        }
+    }
